@@ -88,3 +88,11 @@ export function Treatments() {
     </section>
   );
 }
+
+export const siteConfig = {
+  homepage: "https://seu-usuario.github.io/jordana-site",
+  scripts: {
+    deploy: "npm run build && gh-pages -d dist",
+    predeploy: "npm run build",
+  },
+};
