@@ -1,4 +1,5 @@
 import { useState } from "react";
+import type { Treatment } from "../data/treatments";
 import { treatments } from "../data/treatments";
 import { TreatmentModal } from "./TreatmentModal";
 import "./Treatments.css";
@@ -7,7 +8,7 @@ const ITEMS_PER_PAGE = 4;
 
 export function Treatments() {
   const [currentPage, setCurrentPage] = useState(0);
-  const [selectedTreatment, setSelectedTreatment] = useState(null);
+  const [selectedTreatment, setSelectedTreatment] = useState<Treatment | null>(null);
 
   const totalPages = Math.ceil(treatments.length / ITEMS_PER_PAGE);
   const startIndex = currentPage * ITEMS_PER_PAGE;
@@ -88,11 +89,3 @@ export function Treatments() {
     </section>
   );
 }
-
-export const siteConfig = {
-  homepage: "https://seu-usuario.github.io/jordana-site",
-  scripts: {
-    deploy: "npm run build && gh-pages -d dist",
-    predeploy: "npm run build",
-  },
-};
