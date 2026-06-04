@@ -9,10 +9,37 @@
   --white: #ffffff;
   --shadow: rgba(0, 0, 0, 0.1);
 
-  --sans:
-    system-ui, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --sans: "Yu Gothic", "Segoe UI", sans-serif;
   --mono: ui-monospace, Consolas, monospace;
+}
+
+/* Definição de Fontes Yu Gothic */
+@font-face {
+  font-family: "Yu Gothic";
+  src: url("/src/assets/identidade_visual/Fontes/yu-gothic-light_freefontdownload_org/yu-gothic-light/yu-gothic-light.ttf")
+    format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: url("/src/assets/identidade_visual/Fontes/yu-gothic-regular_freefontdownload_org/yu-gothic-regular/yu-gothic-regular.ttf")
+    format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: url("/src/assets/identidade_visual/Fontes/yu-gothic-medium_freefontdownload_org/yu-gothic-medium/yu-gothic-medium.otf")
+    format("opentype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Yu Gothic";
+  src: url("/src/assets/identidade_visual/Fontes/yu-gothic-bold_freefontdownload_org/yu-gothic-bold/yu-gothic-bold.ttf")
+    format("truetype");
+  font-weight: 700;
 }
 
 /* Reset e Base */

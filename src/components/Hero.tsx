@@ -1,4 +1,5 @@
 import "./Hero.css";
+import dente from "../assets/identidade_visual/Uso digital/Logotipo/simbolo 3.png";
 
 export function Hero() {
   const whatsappUrl =
@@ -12,6 +13,7 @@ export function Hero() {
 
   return (
     <section id="hero" className="hero">
+      <img src={dente} alt="Dente 1" className="dente-decoration" />
       <div className="hero-content">
         <h1 className="hero-title">Dra. Jordana de Paula</h1>
         <p className="hero-subtitle">Cirurgiã-Dentista em Rio Grande - RS</p>

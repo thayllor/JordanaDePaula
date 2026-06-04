@@ -1,15 +1,34 @@
 .hero {
-  background: linear-gradient(135deg, #e9e5da 0%, #97a398 100%);
+  background-color: #e9e5da;
   padding: 6rem 2rem;
   text-align: center;
   min-height: 80vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-tooth-decoration {
+  position: absolute;
+  font-size: 12rem;
+  opacity: 0.08;
+  top: -3rem;
+  right: -3rem;
+  transform: rotate(15deg);
+  pointer-events: none;
+}
+.dente-decoration {
+  width: 44%;
+  height: auto;
+  display: block;
 }
 
 .hero-content {
   max-width: 800px;
+  position: relative;
+  z-index: 1;
 }
 
 .hero-title {

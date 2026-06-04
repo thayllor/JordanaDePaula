@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import logo from "../assets/identidade_visual/Uso digital/Logotipo/Logo Horizontal 1.png";
 
 export function Navbar() {
   const scrollToSection = (id: string) => {
@@ -10,7 +11,7 @@ export function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <h2>Dra. Jordana de Paula</h2>
+          <img src={logo} alt="Logo da Dra. Jordana" className="logo-image" />
         </div>
         <ul className="navbar-menu">
           <li>

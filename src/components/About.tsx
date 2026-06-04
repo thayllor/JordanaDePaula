@@ -20,11 +20,16 @@ export function About() {
           <div className="about-highlights">
             <div className="highlight">
               <span className="number">+10</span>
-              <span className="label">Anos de Experiência</span>
+              <span className="label">
+                Semanas de Experiência "(" isso aki e pra editar pro q tu
+                quiser")"
+              </span>
             </div>
             <div className="highlight">
               <span className="number">2000+</span>
-              <span className="label">Pacientes Satisfeitos</span>
+              <span className="label">
+                Pacientes Satisfeitos "(" futuramente")"
+              </span>
             </div>
           </div>
         </div>
