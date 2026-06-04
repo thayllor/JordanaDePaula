@@ -1,0 +1,59 @@
+.differentials {
+  background: linear-gradient(135deg, #515c52 0%, #3a4239 100%);
+  padding: 4rem 2rem;
+}
+
+.differentials-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.differentials-container h2 {
+  font-size: 2.5rem;
+  color: #e9e5da;
+  text-align: center;
+  margin: 0 0 3rem 0;
+}
+
+.differentials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.differential-card {
+  background-color: rgba(233, 229, 218, 0.1);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  border: 2px solid #b19e80;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.differential-card:hover {
+  background-color: rgba(233, 229, 218, 0.15);
+  transform: translateY(-5px);
+  border-color: #e9e5da;
+}
+
+.differential-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.differential-card h3 {
+  font-size: 1.3rem;
+  color: #e9e5da;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .differentials-container h2 {
+    font-size: 2rem;
+  }
+
+  .differentials-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}

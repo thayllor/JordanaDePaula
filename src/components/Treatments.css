@@ -1,0 +1,90 @@
+.treatments {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+}
+
+.treatments-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.treatments-container h2 {
+  font-size: 2.5rem;
+  color: #515c52;
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.treatments-subtitle {
+  font-size: 1.1rem;
+  color: #97a398;
+  text-align: center;
+  margin: 0 0 3rem 0;
+}
+
+.treatments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.treatment-card {
+  background: linear-gradient(135deg, #e9e5da 0%, #f5f2ed 100%);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.treatment-card:hover {
+  transform: translateY(-5px);
+  border-color: #b19e80;
+  box-shadow: 0 8px 16px rgba(177, 158, 128, 0.2);
+}
+
+.treatment-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.treatment-card h3 {
+  font-size: 1.5rem;
+  color: #515c52;
+  margin: 0 0 0.5rem 0;
+}
+
+.treatment-card p {
+  font-size: 0.95rem;
+  color: #97a398;
+  margin: 0 0 1.5rem 0;
+  line-height: 1.6;
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: #515c52;
+  border: 2px solid #515c52;
+  padding: 0.6rem 1.5rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-outline:hover {
+  background-color: #515c52;
+  color: #e9e5da;
+}
+
+@media (max-width: 768px) {
+  .treatments-container h2 {
+    font-size: 2rem;
+  }
+
+  .treatments-grid {
+    grid-template-columns: 1fr;
+  }
+}

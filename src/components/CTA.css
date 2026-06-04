@@ -1,0 +1,42 @@
+.cta {
+  background: linear-gradient(135deg, #515c52 0%, #3a4239 100%);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.cta-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-container h2 {
+  font-size: 2.5rem;
+  color: #e9e5da;
+  margin: 0 0 1rem 0;
+}
+
+.cta-container p {
+  font-size: 1.2rem;
+  color: #b19e80;
+  margin: 0 0 2rem 0;
+}
+
+.btn-large {
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .cta-container h2 {
+    font-size: 2rem;
+  }
+
+  .cta-container p {
+    font-size: 1rem;
+  }
+
+  .btn-large {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+}
